@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FndBanner_Example' do
+  pod 'FndBanner', :path => '../'
+
+  target 'FndBanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
