@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E4588DC062DE04A43492AAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0E4588DC062DE04A43492AAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0EC5027ED8F5E0A6636C418F /* Pods-FndBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FndBanner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FndBanner_Example/Pods-FndBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2057C34B29E3A4112D92A1D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2057C34B29E3A4112D92A1D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C4AC8A279017B9CE7CC6B78 /* Pods_FndBanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FndBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DFAED6E1264D3AE07B0B646 /* FndBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FndBanner.podspec; path = ../FndBanner.podspec; sourceTree = "<group>"; };
+		5DFAED6E1264D3AE07B0B646 /* FndBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FndBanner.podspec; path = ../FndBanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* FndBanner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FndBanner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lushaoxiong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 254E2VR4TC;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -304,12 +307,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FndBanner_Example/Pods-FndBanner_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FndBanner/FndBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FndBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -497,6 +502,7 @@
 			baseConfigurationReference = D9B912475C73B67E4F0830D8 /* Pods-FndBanner_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 254E2VR4TC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FndBanner/FndBanner-Prefix.pch";
 				INFOPLIST_FILE = "FndBanner/FndBanner-Info.plist";
@@ -513,6 +519,7 @@
 			baseConfigurationReference = 0EC5027ED8F5E0A6636C418F /* Pods-FndBanner_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 254E2VR4TC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FndBanner/FndBanner-Prefix.pch";
 				INFOPLIST_FILE = "FndBanner/FndBanner-Info.plist";

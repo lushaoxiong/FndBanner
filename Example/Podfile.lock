@@ -1,0 +1,26 @@
+PODS:
+  - FndBanner (0.1.0):
+    - SDWebImage
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+
+DEPENDENCIES:
+  - FndBanner (from `../`)
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  FndBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FndBanner: 3864be0b9c9b2463170f2f86e6c89500f54134ca
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+
+PODFILE CHECKSUM: 49b7d796035bd6570852468726ece9ddea38fc2d
+
+COCOAPODS: 1.5.3

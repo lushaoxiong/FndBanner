@@ -1,0 +1,6 @@
+framework module FndBanner {
+  umbrella header "FndBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
