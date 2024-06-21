@@ -1,0 +1,23 @@
+{
+    "tabbar": [
+		{
+			"vc": "PKVideoHomeViewController",
+			"title": "首页",
+			"image": "home_default_new",
+			"selectedImage": "home_selected_new"
+		},
+		{
+			"vc": "PKHomeViewController",
+			"title": "探索",
+			"image": "tab_explore_normal",
+			"selectedImage": "tab_explore_selected"
+		},
+		
+		{
+			"vc": "SXMyHomePageViewController",
+			"title": "我的",
+			"image": "tab_main_normal",
+			"selectedImage": "tab_main_selected"
+		}
+	]
+}
